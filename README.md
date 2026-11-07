@@ -21,7 +21,7 @@ I have been asked (as an analyst) to answer:
 - Primary outcome: on-time delivery against the applicable zone SLA, subject to a documented eligibility rule.
 
 ## Data
-All supplied records are **synthetic and generated for this portfolio exercise**. They do not describe a real company's data.
+All supplied records do not describe a real company's data.
 
 Raw files are in [`data/raw/`](data/raw/):
 - `orders_raw.csv` — order-level operational export, including event timestamps and status.
