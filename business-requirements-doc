@@ -1,0 +1,65 @@
+# 01 — Business Requirements Document
+
+## 1. Business Problem
+
+Management has observed delays in XX deliveries and wants to understand the main factors contributing to these delays.
+
+The company needs to determine whether its current driver capacity is sufficient to meet delivery SLA targets or whether operational improvements or additional drivers are required.
+
+## 2. Project Objective
+
+Investigate the causes of late deliveries and evaluate the effectiveness of current operational capacity.
+
+The analysis will assess potential improvement options, including:
+- Hiring additional drivers.
+- Redistributing existing driver shifts.
+- Improving driver assignment and dispatch processes.
+- Reviewing hub-to-zone resource allocation.
+
+## 3. Key Business Questions
+
+1. What are the main factors contributing to late deliveries?
+2. Which hubs, delivery zones, or time periods experience the highest delays?
+3. Is current driver capacity sufficient to handle order demand?
+4. Are delays related to driver availability, order preparation, assignment, or travel time?
+5. What operational changes could improve SLA performance?
+
+## 4. Data Requirements
+
+The investigation requires:
+
+- Order records and delivery timestamps.
+- Delivery workflow and process definitions.
+- Driver information and shift schedules.
+- Driver allocation by hub and time period.
+- Delivery zones and their SLA targets.
+- Historical order volumes by hub, date, and time.
+- Scheduled driver capacity and actual driver availability.
+
+## 5. Success Criteria
+
+The project will be considered successful when it:
+
+- Identifies the main contributors to late deliveries.
+- Highlights the hubs, zones, and time periods most affected.
+- Evaluates whether driver capacity is a significant constraint.
+- Provides evidence-based operational recommendations.
+- Defines measurable improvement targets for evaluating the proposed actions.
+
+## 6. Expected Deliverables
+
+- Data quality assessment.
+- Documented KPI definitions and business rules.
+- Power BI analytical report.
+- Root-cause investigation.
+- Business recommendations and proposed improvement actions.
+
+## 7. Stakeholders (as for the fictional company)
+
+| Stakeholder | Responsibility |
+|---|---|
+| Operations Manager | Reviews operational requirements and validates findings |
+| Head of Operations | Approves major operational decisions |
+| Hub Managers | Validate hub-level processes and implement improvements |
+| Workforce Planning | Evaluates driver capacity and shift allocation |
+| Data Analyst | Performs data validation, analysis, and reporting |
