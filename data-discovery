@@ -1,0 +1,47 @@
+# 02 — Data Discovery
+
+## 1. Overview
+
+The project contains six synthetic raw datasets covering orders, drivers, driver shifts, hubs, delivery zones, and SLA targets.
+
+The datasets cover the period from January 1, 2025, to December 31, 2025.
+
+## 2. Available Datasets
+
+| Dataset | Records | Purpose |
+|---|---:|---|
+| orders_raw.csv | 80,065 | Order details, delivery timestamps, status, and distance |
+| drivers_raw.csv | 180 | Driver profiles, vehicle types, and employment types |
+| driver_shifts_raw.csv | 31,999 | Scheduled driver shifts and hub allocation |
+| hubs_raw.csv | 6 | Hub information |
+| zones_raw.csv | 30 | Delivery zones, zone types, and hub mapping |
+| sla_targets_raw.csv | 3 | SLA targets by zone type |
+
+## 3. Business Relevance
+
+- **Orders:** Used to investigate delivery performance and identify delays across different delivery stages.
+- **Drivers:** Used to understand the driver workforce and vehicle distribution.
+- **Driver Shifts:** Used to assess scheduled driver capacity by hub and time period.
+- **Hubs and Zones:** Used to compare operational performance across locations.
+- **SLA Targets:** Used to evaluate delivery performance against the applicable service targets.
+
+## 4. Initial Observations
+
+- The orders dataset contains 80,065 records and 80,000 distinct OrderIDs.
+- The dataset includes Delivered, Cancelled, and Failed orders.
+- There are 180 distinct drivers, 6 hubs, and 30 delivery zones.
+- Delivery zones are classified into Dense Urban, Residential, and Peripheral categories.
+- SLA targets differ by zone type: 45, 60, and 75 minutes, respectively.
+- Driver shift records provide scheduled allocation information across hubs and dates.
+
+## 5. Data Limitations
+
+- Actual driver attendance and real-time availability are not provided.
+- Scheduled shifts should not be treated as proof of actual driver availability.
+- The official SLA starting point requires confirmation from Operations.
+- The meaning and reliability of the recorded delivery distance require validation.
+- Historical driver allocation should be derived from shift records rather than the driver's current hub.
+
+## 6. Next Step
+
+Perform a data quality assessment to validate record uniqueness, missing values, timestamp consistency, key relationships, and other issues that may affect the reliability of the analysis.
