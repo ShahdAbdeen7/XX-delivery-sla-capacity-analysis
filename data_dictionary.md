@@ -1,6 +1,4 @@
-# Data Dictionary — Raw Inputs
-
-All records are synthetic. This dictionary describes the supplied columns, not the final analytical model.
+# Data Dictionary
 
 ## orders_raw.csv
 | Column | Meaning | Initial questions |
