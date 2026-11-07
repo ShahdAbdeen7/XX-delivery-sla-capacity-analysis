@@ -1,0 +1,10 @@
+# Power BI temporary / local files
+*.tmp
+*.bak
+*.log
+~$*
+.DS_Store
+Thumbs.db
+
+# Keep raw source data in this synthetic portfolio project.
+# For real company data, never commit confidential or personal information.

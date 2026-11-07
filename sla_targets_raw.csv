@@ -1,0 +1,4 @@
+ZoneType,SLATargetMinutes,EffectiveFrom
+Dense Urban,45,2025-01-01
+Residential,60,2025-01-01
+Peripheral,75,2025-01-01

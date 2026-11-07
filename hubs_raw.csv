@@ -1,0 +1,7 @@
+HubID,HubName,Region,OperatingStart,OperatingEnd
+H01,North Gate,North,08:00,23:00
+H02,Olaya,Central,08:00,23:00
+H03,Al Aziziyah,South,08:00,23:00
+H04,Al Malaz,Central,08:00,23:00
+H05,West Riyadh,West,08:00,23:00
+H06,East Riyadh,East,08:00,23:00

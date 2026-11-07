@@ -1,0 +1,31 @@
+ZoneID,ZoneName,HubID,ZoneType,ReferenceDistanceKM
+01Z01,North Gate Zone 1,H01,Residential,7.1
+01Z02,North Gate Zone 2,H01,Peripheral,10.0
+01Z03,North Gate Zone 3,H01,Dense Urban,4.7
+01Z04,North Gate Zone 4,H01,Residential,4.4
+01Z05,North Gate Zone 5,H01,Peripheral,9.7
+02Z01,Olaya Zone 1,H02,Peripheral,8.8
+02Z02,Olaya Zone 2,H02,Dense Urban,1.6
+02Z03,Olaya Zone 3,H02,Residential,8.4
+02Z04,Olaya Zone 4,H02,Peripheral,10.3
+02Z05,Olaya Zone 5,H02,Dense Urban,4.8
+03Z01,Al Aziziyah Zone 1,H03,Dense Urban,3.7
+03Z02,Al Aziziyah Zone 2,H03,Residential,7.8
+03Z03,Al Aziziyah Zone 3,H03,Peripheral,15.2
+03Z04,Al Aziziyah Zone 4,H03,Dense Urban,2.1
+03Z05,Al Aziziyah Zone 5,H03,Residential,8.2
+04Z01,Al Malaz Zone 1,H04,Residential,6.6
+04Z02,Al Malaz Zone 2,H04,Peripheral,10.2
+04Z03,Al Malaz Zone 3,H04,Dense Urban,3.5
+04Z04,Al Malaz Zone 4,H04,Residential,6.8
+04Z05,Al Malaz Zone 5,H04,Peripheral,13.4
+05Z01,West Riyadh Zone 1,H05,Peripheral,13.8
+05Z02,West Riyadh Zone 2,H05,Dense Urban,2.4
+05Z03,West Riyadh Zone 3,H05,Residential,4.5
+05Z04,West Riyadh Zone 4,H05,Peripheral,15.4
+05Z05,West Riyadh Zone 5,H05,Dense Urban,3.7
+06Z01,East Riyadh Zone 1,H06,Dense Urban,3.6
+06Z02,East Riyadh Zone 2,H06,Residential,6.0
+06Z03,East Riyadh Zone 3,H06,Peripheral,12.9
+06Z04,East Riyadh Zone 4,H06,Dense Urban,4.4
+06Z05,East Riyadh Zone 5,H06,Residential,6.8

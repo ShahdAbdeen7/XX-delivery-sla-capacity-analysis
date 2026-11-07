@@ -1,0 +1,15 @@
+START HERE
+
+1. Read README.md.
+2. Read docs/business_brief.md as if it came from your Head of Operations.
+3. Read docs/data_dictionary.md.
+4. Do not clean the data yet.
+5. Your first task is to inspect the raw files and write down:
+   - the grain of each table;
+   - candidate primary keys;
+   - possible duplicate records;
+   - missing / invalid timestamp patterns;
+   - relationship questions;
+   - business definitions you need clarified.
+
+Do not build visuals or DAX in this first step. A good analyst reduces uncertainty before building a report.
